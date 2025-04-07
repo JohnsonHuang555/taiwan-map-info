@@ -151,8 +151,8 @@ const artGalleries = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen items-center justify-items-center">
-      <main className="flex flex-col items-center">
+    <div className="min-h-screen">
+      <main className="flex flex-col overflow-auto">
         <div className="relative h-full w-[1000px]">
           <Image
             src="/taiwan-map.jpg"
